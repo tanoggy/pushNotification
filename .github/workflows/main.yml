@@ -28,5 +28,5 @@ jobs:
           cd ~/vfarm/notification/pushNotification
           git pull
           git status
-          npm install --legacy-peer-deps
+          npm install
           pm2 restart 2
